@@ -58,18 +58,6 @@ class ServiceProvider extends IlluminateServiceProvider
     }
 
     /**
-     * Load all module factories
-     *
-     * @param string $path
-     *
-     * @return void
-     */
-    protected function loadFactoriesFrom($path)
-    {
-        app(Factory::class)->load($path);
-    }
-
-    /**
      * Get all of the configuration files for the application.
      *
      * @param  string  $path
